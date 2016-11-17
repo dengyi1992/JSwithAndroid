@@ -126,3 +126,9 @@ JSObject.java
       }
 
 切记调用方法必须加@JavascriptInterface
+
+
+<img src="./Screenshot_1479371730.png"  >
+图一 Android代码被js调用
+<img src="./Screenshot_1479371780.png">
+图二 js代码被Android调用
