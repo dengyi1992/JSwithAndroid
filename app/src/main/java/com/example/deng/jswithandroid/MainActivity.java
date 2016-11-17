@@ -26,16 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @SuppressLint("JavascriptInterface")
-    public void androidFunction() {
-        Toast.makeText(this, "Android Method1", Toast.LENGTH_LONG).show();
-    }
-
-    @SuppressLint("JavascriptInterface")
-    public void androidFuction(String s) {
-        Toast.makeText(this, "Android Method2:参数" + s, Toast.LENGTH_LONG).show();
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu,menu);
